@@ -1,5 +1,9 @@
 body{
     background-color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
 }
 
 .container-nav {
@@ -16,37 +20,31 @@ body{
   width: 100%;
 }
 
-
 .brand {
   display: flex;
   align-items: center;
 }
 
-
 li>a {
   padding: 8px 24px;
 }
-
-
-li {
-  list-style-type: none;
-}
-
 
 a {
   color: #ffffff;
   text-decoration:none;
 }
 
-
 .nav-links {
   display: flex;
   align-items: center;
 }
 
-
 .button-menu-toggle {
   display: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 h1{
@@ -116,33 +114,28 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 600px) {
-    .column {
-      flex: 100%;
-    }
-  }
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .column {
       flex: 100%;
+}
+  
+.button-menu-toggle {
+  display: block;
+  background-color: white;
+  border:none;
+  border-radius: 50px;
+  padding: 0 24px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  
     }
+     
   
-  
-    .nav-links {
+.nav-links {
       display: none;
-    }
-  
-  
-    .button-menu-toggle {
-      display: block;
-      background-color: white;
-      border:none;
-      border-radius: 50px;
-      padding: 0 24px;
-      font-family: monospace;
-      font-weight: bold;
-      font-size: 20px;
-    }
+  }
    
     .nav-links.nav-links-responsive {
       position: absolute;
