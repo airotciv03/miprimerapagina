@@ -1,9 +1,9 @@
-body{
+body ul{
     background-color: #ffffff;
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
-}
+    padding: 0;
 }
 
 .container-nav {
@@ -12,7 +12,6 @@ body{
   height: 50px;
   background-color: #000000;
 }
-
 
 .navbar {
   display: flex;
@@ -49,13 +48,14 @@ li {
 
 h1{
     color: rgb(223, 38, 140);
-    font-family: arial;
+    font-family: monospace;
     font-size: 36px;
     text-align: center;
 }
 
 h2{
     color:rgb(43, 61, 226);
+    font-family: monospace;
     font-size: 20px;
     padding: 10px;
     margin: 20px;
@@ -63,7 +63,7 @@ h2{
 
 p{
     color: darkgreen;
-    font-family: georgia;
+    font-family: monospace;
     font-size: 18px;
     padding: 10px;
     margin: 20px;
@@ -129,7 +129,7 @@ footer {
   font-family: monospace;
   font-weight: bold;
   font-size: 20px;
-  
+
     }
      
   
